@@ -1,0 +1,21 @@
+<items gfxroot="gfx/items/" version="1">
+    <!-- passive 被动道具；active 主动道具； familiar跟班道具 trinket饰品道具-->
+    <!-- name 道具名称； -->
+    <!-- cache 道具效果； -->
+    <!-- description 道具描述； -->
+    <!-- gfx 道具图标；存放于 游戏目录/mods/模组名/resources/gfx/items/collectibles 目录下 -->
+    <!-- tags 道具标签； wiki：https://isaac.huijiwiki.com/wiki/%E6%A0%87%E7%AD%BE -->
+    <!-- quality 道具品质； 0-4 -->
+    <!-- maxcharges 主动道具充能数 -->
+
+
+    <!-- 被动道具 风油精 -->
+    <passive
+        name="Essential Balm"
+        cache="all"
+        description="Use with caution in children under 3 years"
+        quality="3"
+        gfx="P_EssentialBalm.png"
+        tags="offensive summonable"
+    />
+</items>

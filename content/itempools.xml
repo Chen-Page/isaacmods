@@ -1,0 +1,25 @@
+<!-- 道具池 wiki: https://wofsauge.github.io/IsaacDocs/rep/xml/itempools.html -->
+<ItemPools>
+    <!-- 道具池名称有如下类型：treasure(宝箱房), greedTreasure(贪婪宝箱房), boss(首领房), greedBoss(贪婪白宝箱房), devil(恶魔房),
+    greedDevil(贪婪恶魔房), angel(天使房), greedAngel(贪婪天使房), shop(商店房), greedShop(贪婪商店房), babyShop(领养证明商店),
+    secret(隐藏房), greedSecret(贪婪隐藏房), ultraSecret(红隐房), curse(刺房), greedCurse(贪婪刺房), library(书房),
+    planetarium(星象房), goldenChest(金箱子), redChest(红箱子), oldChest(旧箱子), woodenChest(木箱子), beggar(白乞丐),
+    demonBeggar(黑乞丐), craneGame(赌博乞丐), bombBum(炸弹乞丐), keyMaster(钥匙乞丐), rottenBeggar(腐烂乞丐),
+    batteryBum(电池乞丐) -->
+
+    <!-- 首领房 -->
+    <Pool Name="boss">
+        <!-- Name 道具名 -->
+        <!-- Weight 权重 -->
+        <!-- DecreaseBy 获取后减少的权重 -->
+        <!-- RemoveOn 权重到达后不再出现在道具池 -->
+
+        <!-- 风油精 -->
+        <Item
+            Name="Essential Balm"
+            Weight="1"
+            DecreaseBy="1"
+            RemoveOn="0.1"
+        />
+    </Pool>
+</ItemPools>
